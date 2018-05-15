@@ -1,0 +1,20 @@
+﻿body {
+    font-size: 36px;
+}
+
+.row > #math-practice {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    color: #000;
+    background-color: #000;
+    margin-left: 75px;
+    margin-right: 75px;
+}
