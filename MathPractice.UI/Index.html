@@ -2,12 +2,12 @@
 <html>
 <head>
     <title>Math Practice</title>
-	<meta charset="utf-8" />
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/custom.css" rel="stylesheet" />
-
+    
 </head>
-<body>
+<body onload="generateProblem()">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8 offset-2 text-center" id="math-practice">
+            <div class="col-md-8 col-md-offset-2 text-center" id="math-practice">
                 <!--<h2>What would you like to practice?</h2>
                 <p>Please Choose One</p>
                 <input type="button" id="btnAdd" class="btn btn-success" value="Addition" />
@@ -32,14 +32,21 @@
                     <h1><span id="response"></span></h1>
                     <div id="refresh"></div>
                 </div>
-                
+
             </div>
-            
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <p><strong>Correct Answers: </strong><span id="score"></span></p>
+                </div>
+            </div>
         </div>
+        <footer class="text-center">
+            <p>A simple app to practice 3-digit addition and subtraction. The numbers and the operator (+/-) are generated randomly and displayed using javascript.</p>
+            <p><a href="/Home">Click Here to Go Back to Home Page</a></p>
+        </footer>
     </div>
-    <!--<script src="Scripts/bootstrap.min.js"></script>-->
-    <!--<script src="Scripts/jquery-3.0.0.min.js"></script>-->
-    <!--<script src="Scripts/popper-utils.js"></script>-->
+    <script src="Scripts/jquery.1.11.1.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/mathpractice.js"></script>
 </body>
 </html>

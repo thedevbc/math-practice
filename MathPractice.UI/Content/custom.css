@@ -1,5 +1,5 @@
 ﻿body {
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .row > #math-practice {
@@ -17,4 +17,9 @@ hr {
     background-color: #000;
     margin-left: 75px;
     margin-right: 75px;
+}
+
+footer {
+    font-size: .5em;
+    padding-top: 50px;
 }
