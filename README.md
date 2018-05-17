@@ -3,11 +3,12 @@ a web app to practice 3-digit addition and subtraction, written in Javascript
 
 uses Bootstrap 3.3.7 for quick styling/layout; which requires jQuery
 
-created using MS Visual Studio, so there's some extra files included.
-You only need the following:
+To demo, you need the following:
 Content (folder containing CSS files)
 Scripts (folder containing js files)
 index.html
+
+the functionality is in the mathpractice.js
 
 My son needed a way to practice his math, and I was working & attending school, so I came up with this.
 
