@@ -27,7 +27,6 @@ const app = Vue.createApp({
             }
         },
         onAnswerKeydown(event) {
-            console.log(event);
             let regEx = new RegExp(/\d/);
             if (event.key != 'Backspace' && event.key != 'Enter' && event.key != 'Tab' && !regEx.test(event.key)) {
                 event.preventDefault();
