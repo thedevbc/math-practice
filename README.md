@@ -1,7 +1,5 @@
 # math-practice
-a web app to practice 3-digit addition and subtraction, written in Javascript
-
-uses Bootstrap 3.3.7 for quick styling/layout; which requires jQuery
+a Vue.js version of my web app to practice 3-digit addition and subtraction,
 
 To demo, you need the following:
 Content (folder containing CSS files)
