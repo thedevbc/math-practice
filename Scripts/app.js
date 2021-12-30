@@ -25,7 +25,18 @@ const app = Vue.createApp({
             } else {
                 this.incorrectMessage = 'Please try again.'
             }
-        }
+        },
+        onAnswerKeydown(event) {
+            console.log(event);
+            let regEx = new RegExp(/\d/);
+            if (event.key != 'Backspace' && event.key != 'Enter' && event.key != 'Tab' && !regEx.test(event.key)) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            if (event.key == 'Enter') {
+                this.checkAnswer();
+            }
+        },
     },
 });
 
